@@ -1,0 +1,112 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .promo {
+    .title {
+      line-height: 40px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .promo {
+    .title {
+      font-size: 30px;
+      &_big {
+        font-size: 50px;
+      }
+    }
+  }
+  .optimization {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .optimization_img {
+      top: 0;
+      left: 0;
+      position: relative;
+      display: block;
+      height: 200px;
+      object-fit: cover;
+    }
+    .optimization_header {
+      width: 100%;
+      margin: 0;
+      margin-top: 10px;
+      text-align: center;
+      
+    }
+    .optimization_text {
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+  .finish {
+    .finish_wrapper {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .finish_item {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .waiting {
+    .waiting_wrapper {
+      flex-direction: column;
+      align-items: center;
+      .waiting_item {
+        margin-top: 20px;
+        width: 90%;
+        .waiting_img {
+          width: 70%;
+        }
+      } 
+    }
+  }
+  .first {
+    .first_img {
+      width: 70%;
+    }
+  }
+  .modal {
+    width: 80%;
+    &__input {
+      width: 70%;
+      input {
+        width: 100%;
+      }
+    }
+    &__btn {
+      font-size: 16px;
+    }
+  }
+  footer {
+    .info {
+      width: 100%;
+      .info_links {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        a {
+          display: block;
+        }
+      }
+    }
+  }
+}

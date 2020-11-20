@@ -44,7 +44,6 @@ h1 {
   font-family: "Roboto - Black";
   font-size: 41px;
   font-weight: 400;
-  line-height: 24px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -423,3 +422,5 @@ footer a {
   }
   
 }
+
+@import "blocks/media"
